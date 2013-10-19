@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+
+
+
+{% block content %}
+
+
+
+<div class="container">
+<div class="row">
+<!----------- SINISTRA IMG -------------->
+
+  <div class="col-xs-12 col-md-4">
+{% for galleria in galleria_list %}
+{% load cropping %}
+<p><img src="{% cropped_thumbnail galleria "croppingthumb" %}" class="img-rounded"></p>
+{% endfor %}
+<p></p>
+<p><h3>Benefici: </h3></p>
+{% for benefici in benefici_list %}
+{{benefici.body|safe|linebreaks}}
+{% endfor %}
+</div>
+
+
+<! ------------ DESTRA ---------->
+
+  <div class="col-xs-6 col-md-8">
+<p><h2>{{page.titolo}}</h2></p>
+<p>{{page.body|safe|linebreaks}}</p>
+<p></p>
+<p><h3>CARATTERISTICHE</h3></p>
+<p></p>
+{% for caratteristiche in caratteristiche_list %}
+<table class="table table-striped">
+ <tr>
+<td><B>Laser:</B></td>
+<td>{{caratteristiche.laser}}</td>
+</tr>
+<tr>
+<td><b>Raffreddamento:</b></td>
+<td>{{caratteristiche.raffreddamento}}</td>
+</tr>
+<tr>
+<td><b>Asse XY:</b></td>
+<td><b>{{caratteristiche.assexy}}</b></td>
+</tr>
+<tr>
+<td><b>Asse Z:</b></td>
+<td>{{caratteristiche.assez}}</td>
+</tr>
+<tr>
+<td><b>Aspirazione:</b></td>
+<td><b>{{caratteristiche.aspirazione}}</b></td>
+</tr>
+<tr>
+<td><b>Motori:</b></td>
+<td>{{caratteristiche.motori}}</td>
+</tr>
+<tr>
+<td><b>Asse C e testa Rotante:</b></td>
+<td>{{caratteristiche.assec}}</td>
+</tr>
+<tr>
+<td><b>Alimentazione:</b></td>
+<td>{{caratteristiche.alimentazione}}</td>
+</tr>
+</table>
+{% endfor %}
+</div>
+
+</div>
+</div>
+{% endblock content %}
+
+
+

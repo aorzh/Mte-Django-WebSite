@@ -1,0 +1,42 @@
+ <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">CAMPI D'IMPIEGO <span class="text-muted"></span></h2>
+          <p class="lead">L’utilizzo del laser nelle realtà industriale più diverse si sta diffondendo con una rapidità inaspettata. Infatti è sempre maggiore la necessità di marcare con informazioni sempre più complesse i materiali ed i prodotti più differenti. Ovviamente tutto questo è stato reso possibile solo grazie agli sviluppi che sono stati realizzati nell’ultimo decennio nell’ambito della tecnologia laser. Si è arrivati alla progettazione ed alla commercializzazione di laser con diverse lunghezze d’onda che hanno reso praticamente “marcabile” qualsiasi tipo di materiale.</p>
+        </div>
+        <div class="col-md-5">
+          <iframe width="480" height="350" src="http://www.youtube.com/embed/BxUqZ-MbUMU" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-5">
+         <iframe width="480" height="300" src="http://www.youtube.com/embed/sBPPGaBz2mM" frameborder="0" allowfullscreen></iframe>&middot;
+        </div>
+        <div class="col-md-7">
+          <h2 class="featurette-heading">MARCATURA <span class="text-muted"></span></h2>
+          <p class="lead">Un sottile pennello di luce che disegna. Lasit è nel business della marcatura a LASER, un mondo variegato di applicazioni alcune impensabili, altre davvero sorprendenti.</p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Trimming. <span class="text-muted"></span></h2>
+          <p class="lead">Le nostre macchine di taratura regolano i parametri dei singoli componenti, utilizzando il fascio laser per rimuovere una esatta quantità di materiale.</p>
+        </div>
+        <div class="col-md-5">
+          <iframe width="480" height="300" src="http://www.youtube.com/embed/JQ9_dVGVhQo?list=UUApg4ZgukFXN_-tvYoT5g5w" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+

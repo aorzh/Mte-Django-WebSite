@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+{% include "carosello.html" %}
+
+<!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+{% for page in page_list %}
+        <div class="col-lg-4">{% load cropping %}
+          <img class="img-circle" src="{% cropped_thumbnail page "cropping" %}" data-src="{% cropped_thumbnail page "cropping" %}/240x240" alt="Generic placeholder image">
+          <h2>{{page.titolo}}</h2>
+          <p>{{ page.body|safe|linebreaks|truncatechars:250 }}...</p>
+          <p><a class="btn btn-default" href="{{ page.id }}">Continua... &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+{% endfor %}
+      </div><!-- /.row -->
+
+{% include "altro.html" %}
+
+{% endblock content %}
+
